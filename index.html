@@ -1,101 +1,124 @@
-<!DOCTYPE htaml>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Simple Header - CodeWith Random</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="site-header">
-            <div class="site-identity">
-                <h1>Tu Murkhah</h1>
-            </div>        
-            <nav class="site-navigation">
-                <!-- <ul class="nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul> -->
-            </nav>
-        </div>
-    
-        <div class="content">
-           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti libero earum labore ut nam sit fuga unde eaque. Consequatur hic et alias ab modi consectetur inventore, fugit corporis vero quo fugiat temporibus ad? Odit, ducimus praesentium, nemo deserunt quae incidunt excepturi modi maxime aliquid fugiat illum iste error aliquam eos!
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentist Portfolio</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Ubuntu:wght@300&display=swap');
 
-        <div class="contact">
-            <!-- <p>Feel free to reach me out at</p>            
-            <p>Aryampdental@gmail.com</p> -->
-            <span>Feel free to reach me out at: Aryampdental@gmail.com </span>           
-            <span>Google forms link : <a href=" https://forms.gle/bKmR4R7HP3YKhXC5A"> https://forms.gle/bKmR4R7HP3YKhXC5A</a></span>                            
-        </div>
+        body {
+            font-family: 'DM Serif Display', serif;
+            font-family: 'Ubuntu', sans-serif;            
+            margin: 0;
+            padding: 0;
+            background-color: rgb(255, 249, 249);
+        }
 
-    <div class="footer">
-      <!-- <div class="heading"> -->
-        <!-- <h2>Faraz<sup>™</sup></h2> -->
-      <!-- </div> -->
-      <!-- <div class="content">
-        <div class="services">
-          <h4>Services</h4>
-          <p><a href="#">App development</a></p>
-          <p><a href="#">Web development</a></p>
-          <p><a href="#">DevOps</a></p>
-          <p><a href="#">Web designing</a></p>
-        </div>
-        <div class="social-media">
-          <h4>Social</h4>
-          <p>
-            <a href="#"
-              ><i class="fab fa-linkedin"></i> Linkedin</a
-            >
-          </p>
-          <p>
-            <a href="#"
-              ><i class="fab fa-twitter"></i> Twitter</a
-            >
-          </p>
-          <p>
-            <a href="https://github.com/farazc60"
-              ><i class="fab fa-github"></i> Github</a
-            >
-          </p>
-          <p>
-            <a href="https://www.facebook.com/codewithfaraz"
-              ><i class="fab fa-facebook"></i> Facebook</a
-            >
-          </p>
-          <p>
-            <a href="https://www.instagram.com/codewithfaraz"
-              ><i class="fab fa-instagram"></i> Instagram</a
-            >
-          </p>
-        </div>
-        <div class="links">
-          <h4>Quick links</h4>
-          <p><a href="#">Home</a></p>
-          <p><a href="#">About</a></p>
-          <p><a href="#">Blogs</a></p>
-          <p><a href="#">Contact</a></p>
-        </div>
-        <div class="details">
-          <h4 class="address">Address</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur <br />
-            adipisicing elit. Cupiditate, qui!
-          </p>
-          <h4 class="mobile">Mobile</h4>
-          <p><a href="#">+91-12225*****</a></p>
-          <h4 class="mail">Email</h4>
-          <p><a href="#">farazc60@gmail.com</a></p>
-        </div>
-      </div> -->
-      <!-- <footer> -->
-        <!-- <hr /> -->
-        <!-- © 2022 codewithFaraz. -->
-      <!-- </footer> -->
+        header {
+          /* background-color: darkgray; */
+          /* background: #076685e9;   */
+
+          background-color: #26a5b3f6;;  
+
+            
+            color: rgb(248, 248, 248);
+            text-align: center;
+            padding: 20px;
+        }
+        
+
+        h1 {
+            font-size: 36px;
+        }
+
+        nav {
+            background-color: #374581;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: rgb(170, 117, 117);
+            margin: 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            /* background-color: rgba(245, 234, 226, 0.158); */
+
+            background: radial-gradient(circle at 18.7% 37.8%, rgb(230, 230, 230) 0%, rgb(225, 234, 238) 90%);
+
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            font-size: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 25px;
+            line-height: 1.6;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ARE WE KEEPING UP WITH THE DEMANDS OF RECORD-KEEPING FOR FORENSIC ODONTOLOGY? TRENDS AND PRACTICES OF RECORD MAINTENANCE AMONG GENERAL DENTAL PRACTITIONERS OF GUJARAT</h1>
+    </header>
+    <!-- <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav> -->
+    <div class="container" id="about">
+        <h2>About Me</h2>
+        <p>
+          I am delighted to introduce myself as Arya Minesh Pathak, a final-year student pursuing a Bachelor of Dental Surgery (BDS) degree at the esteemed Manubhai Patel Dental College in Vadodara.<br> Throughout my dental education, I have consistently demonstrated a dedication to academic excellence, a deep understanding of dental principles, and a genuine enthusiasm for the intricate world of oral healthcare. As I enter the final year of my BDS program, I have had the privilege of engaging in meaningful research endeavors that have expanded my horizons and deepened my appreciation for the transformative power of dental science
+         </p>
     </div>
-  </body>
-</html>
+    <div class="container" id="services">
+      <h2>Aim of the study</h2>
+      <p>
+        To evaluate the existing state of record keeping among the general dental practitioners of Gujarat to determine the knowledge and attitude towards forensic odontology in the state of Gujarat and assess the preparedness of general dental practitioners when the necessity for forensic purposes arises.
+        <br><br>
+       <span>
+        <b>Guided By: </b><u>Dr Rashmi Gubbi</u> (HOD of the Department of Oral and Maxillofacial Pathology and Microbiology) (Manubhai Patel Dental College).
+       </span>
+    </div>
+    
+    <div class="container" id="gallery">
+      <div class="contact">
+        <h3>Email Address</h3>
+        
+                   <span id="content-to-copy">Aryampdental@gmail.com </span>
+                   
+                   <br>
+        <h3>Survey link</h3>
+        <span><a href="https://forms.gle/zL7pSAzNTo2KMiJ36"> https://forms.gle/zL7pSAzNTo2KMiJ36</a></span>                            
+    </div>
+        </div>
+   
